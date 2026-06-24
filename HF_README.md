@@ -128,6 +128,8 @@ For the broader research context, see Fesser, Zhang, Li, Zitnik et al., *How Pos
 
 ---
 
-Developed by **Ankur Sharma**.
+Developed by **Ankur Sharma** — [GitHub](https://github.com/ankurgenomics) · [LinkedIn](https://linkedin.com/in/ankurit)
+
+Code and full results: [github.com/ankurgenomics/genome-ft](https://github.com/ankurgenomics/genome-ft)
 
 *This is a personal open-source project, developed independently in a personal capacity. It is not affiliated with, endorsed by, or representative of any current or former employer, and uses only public models and public benchmark datasets. All views and results are the author's own.*

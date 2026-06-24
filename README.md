@@ -349,6 +349,8 @@ The general point is that, independent of scale, the relevant discipline is eval
 
 ---
 
-Built and maintained by **Ankur Sharma**.
+Built and maintained by **Ankur Sharma** — [GitHub](https://github.com/ankurgenomics) · [LinkedIn](https://linkedin.com/in/ankurit)
+
+Model card on Hugging Face: [ankur0050/nucleotide-transformer-v2-50m-genomicbenchmarks-ft](https://huggingface.co/ankur0050/nucleotide-transformer-v2-50m-genomicbenchmarks-ft) (card and metrics only; weights are not redistributed, see [Weights & license](#weights--license)).
 
 *This is a personal open-source project, developed independently in a personal capacity. It is not affiliated with, endorsed by, or representative of any current or former employer, and uses only public models and public benchmark datasets. All views and results are the author's own.*
