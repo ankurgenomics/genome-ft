@@ -1,0 +1,67 @@
+{
+  "task": "human_enhancers_cohn",
+  "max_length": 500,
+  "batch_size": 32,
+  "test_examples": 6948,
+  "base_checkpoint": "InstaDeepAI/nucleotide-transformer-v2-50m-multi-species",
+  "finetuned_checkpoint_dir": "./checkpoints_enh_s42_best",
+  "base_model": {
+    "accuracy": 0.4989925158318941,
+    "f1_binary": 0.02136631993252741,
+    "mcc": -0.009273394233469316
+  },
+  "finetuned_model": {
+    "accuracy": 0.7399251583189407,
+    "f1_binary": 0.748223491709628,
+    "mcc": 0.4808962530454165
+  },
+  "delta_finetuned_minus_base": {
+    "accuracy": 0.2409326424870466,
+    "f1_binary": 0.7268571717771006,
+    "mcc": 0.4901696472788858
+  },
+  "confusion_matrix": [
+    [
+      2456,
+      1018
+    ],
+    [
+      789,
+      2685
+    ]
+  ],
+  "confusion_matrix_layout": "[[TN, FP], [FN, TP]]",
+  "classification_report": {
+    "0": {
+      "precision": 0.7568567026194145,
+      "recall": 0.7069660333909038,
+      "f1-score": 0.731061169816937,
+      "support": 3474.0
+    },
+    "1": {
+      "precision": 0.7250877666756683,
+      "recall": 0.7728842832469776,
+      "f1-score": 0.748223491709628,
+      "support": 3474.0
+    },
+    "accuracy": 0.7399251583189407,
+    "macro avg": {
+      "precision": 0.7409722346475414,
+      "recall": 0.7399251583189407,
+      "f1-score": 0.7396423307632825,
+      "support": 6948.0
+    },
+    "weighted avg": {
+      "precision": 0.7409722346475414,
+      "recall": 0.7399251583189407,
+      "f1-score": 0.7396423307632826,
+      "support": 6948.0
+    }
+  },
+  "published_reference": {
+    "metric": "accuracy",
+    "genomic_benchmarks_cnn": 0.69,
+    "hyenadna_reported": 0.74,
+    "note": "published reference, not computed here"
+  }
+}

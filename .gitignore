@@ -1,0 +1,60 @@
+# Checkpoints and model weights
+checkpoints*/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Training logs (large, auto-generated)
+*.log
+train_*.log
+eval_*.log
+train_log.txt
+eval_log.txt
+
+# Metrics JSON (auto-generated, committed selectively)
+metrics_*.json
+eval_report.json
+
+# HuggingFace cache
+.cache/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Personal session notes (not for public repo)
+SESSION_NOTES.md
+writeup-draft.md
+linkedin-post.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Figures
+# Canonical figures live in docs/figures/ and ARE committed (README embeds them).
+# Loose/legacy figures left in the project root are NOT committed.
+/fig1_training_curves.png
+/fig2_results_comparison.png
+/fig3_pipeline.png
+/fig4_architecture.png
+/training_curve.png
+/nb_fig*.png
+!docs/figures/

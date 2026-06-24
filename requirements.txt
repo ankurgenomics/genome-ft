@@ -1,0 +1,17 @@
+# Tested with Python 3.14 on macOS (Apple Silicon, MPS) — June 2026.
+# transformers is pinned exactly: v5.x removes an internal helper the NT-v2
+# remote code depends on, which breaks model loading.
+
+torch==2.12.1
+transformers==4.55.2
+datasets==5.0.0
+scikit-learn==1.9.0
+numpy==2.5.0
+einops==0.8.2
+sentencepiece==0.2.1
+matplotlib==3.11.0
+
+# Optional fallback data source. The pipeline loads GenomicBenchmarks tasks via
+# the Hugging Face `datasets` hub by default; this package is only used if that
+# path is unavailable. Install manually if needed:
+#   pip install genomic-benchmarks
