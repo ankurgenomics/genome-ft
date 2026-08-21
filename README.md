@@ -1,6 +1,7 @@
 # genome-ft
 
 *Full weight-level fine-tuning of a genomic foundation model, with a leakage-free, multi-seed benchmark.*
+<img width="2816" height="1536" alt="Transformer Full-Weight Fine-Tuning   Eval Pipeline" src="https://github.com/user-attachments/assets/1bf1fbe3-9d4f-4a59-8565-a794306b3c94" />
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-MPS%20%7C%20CUDA-ee4c2c)
